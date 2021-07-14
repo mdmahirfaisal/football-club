@@ -1,5 +1,5 @@
 /* Ipad or Tablet Layout */
-@media only screen and (max-width: 892px) {
+@media only screen and (max-width: 768px) {
   /* common css */
   h2 {
     font-size: 1.3em;
