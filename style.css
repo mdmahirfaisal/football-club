@@ -282,8 +282,10 @@ footer {
   color: white;
 }
 .list li {
-  background-color: rgb(112, 112, 112);
-  margin-right: 25px;
+  background-color: rgb(34, 32, 32);
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 20px;
   padding: 5px 8px;
   border-radius: 25px;
   list-style: none;
