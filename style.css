@@ -278,11 +278,8 @@ footer {
   display: flex;
   margin: 0;
 }
-.list i {
-  color: white;
-}
 .list li {
-  background-color: rgb(34, 32, 32);
+  background: black;
   font-size: 22px;
   font-weight: bold;
   margin-right: 20px;
@@ -291,8 +288,20 @@ footer {
   list-style: none;
   transition: 0.5s;
 }
-.list li:hover {
-  background-color: rgb(238, 28, 28);
+.list ul li a {
+  color: #fff;
+}
+.list ul .twitter:hover {
+  background: #5eb1d7;
+}
+.list ul .instagram:hover {
+  background: #f0aeaf;
+}
+.list ul .dribbble:hover {
+  background: #da7d9e;
+}
+.list ul .youtube:hover {
+  background: #e93f3a;
 }
 footer p {
   font-size: 18px;
