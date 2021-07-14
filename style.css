@@ -1,29 +1,76 @@
+/* common css start */
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.section-title {
+  padding: 0 10px;
+  color: blue;
+}
+/* common css start */
+
 /* header start */
 header {
   background-color: rgba(54, 1, 243, 0.911);
 }
-
+/* ---------------
+    navbar start
+  -------------- */
 .header-container {
   width: 85%;
   margin: 0 auto;
+}
+nav {
+  overflow: hidden;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0px 20px 20px 0;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: orange;
+}
+nav a button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(238, 28, 28);
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.6s;
+}
+nav a button:hover {
+  background-color: rgb(64, 250, 234);
+}
+/* navbar end */
+.inner-header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 35px 0;
 }
-.header-img img {
-  width: 100%;
-  height: 100%;
-}
 .america h1 {
   color: rgb(255, 255, 255);
   font-size: 45px;
+}
+.conbol {
+  color: orange;
 }
 .america a {
   color: white;
@@ -37,9 +84,12 @@ header {
   border: none;
   transition: 0.6s;
 }
-.america button:hover {
+.header-container:hover .america button {
   background-color: rgb(64, 250, 234);
-  font-size: 1.1em;
+}
+.header-img img {
+  width: 100%;
+  height: 100%;
 }
 /* -----------------
    header section end
@@ -59,7 +109,6 @@ main {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   grid-gap: 20px;
 }
 .player {
@@ -83,8 +132,7 @@ main {
   margin: 30px auto;
   padding: 5% 7.5%;
 }
-h4,
-p {
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -94,7 +142,6 @@ p {
   grid-column-gap: 20px;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 30px; */
 }
 .ground {
   grid-column: 1 / -4;
@@ -109,6 +156,7 @@ p {
 }
 .football {
   grid-column: 6/ -1;
+  text-align: center;
 }
 .football img {
   width: 80%;
@@ -128,6 +176,41 @@ p {
   box-shadow: 2px 3px 10px 0px rgb(214, 210, 210);
 }
 .teams-info {
+}
+/*-----------------------
+   services section start
+   -------------------- */
+.services-container {
+  width: 85%;
+  background-color: rgb(180, 239, 241);
+  margin: 30px auto;
+  padding: 5% 7.5%;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.service img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.service-img {
+  width: 80%;
+  height: 50%;
+  padding: 10px;
+}
+.trainings {
+  width: 100%;
+  padding: 10px;
 }
 
 /* ----------------------
