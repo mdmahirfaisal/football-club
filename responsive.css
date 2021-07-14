@@ -51,7 +51,7 @@
   /* services section */
   .services-container {
     width: 100%;
-    padding: 50px 0px;
+    padding: 30px 0px;
   }
   .services {
     grid-template-columns: repeat(2, 1fr);
@@ -60,9 +60,8 @@
   /* bottom section */
 
   .bottom-container {
-    width: 90%;
-    padding: 50px 10px;
-    margin: 20px 20px;
+    width: 100%;
+    padding: 30px 0px;
   }
   .hieghlights {
     display: grid;
@@ -70,6 +69,9 @@
   }
   .left-area {
     text-align: center;
+  }
+  .faisal{
+    width: 80%;
   }
   .right-area {
     background-color: white;
@@ -139,8 +141,8 @@
     margin: 0 10px;
   }
   .bottom-container {
-    width: 100%;
-    padding: 50px 0px;
+    width: 80%;
+    padding: 30px 0px;
   }
   .hieghlights {
     display: grid;
