@@ -1,3 +1,80 @@
+/* Ipad or Tablet Layout */
+@media only screen and (max-width: 892px) {
+  /* common css */
+  h2 {
+    font-size: 1.3em;
+  }
+  nav .btn {
+    padding-right: 10%;
+  }
+  nav ul {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  .header-container {
+    width: 100%;
+  }
+  .inner-header {
+    padding: 20px 10%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .america h1 {
+    font-size: 45px;
+  }
+  .header-img {
+    margin-top: 30px;
+  }
+  /* player section */
+  .container {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 20px;
+  }
+  /* team conatainer */
+  .team-container {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .full-team {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+    margin: 0 10px;
+  }
+  .all-player {
+    margin: 20px 0;
+  }
+  /* services section */
+  .services-container {
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 10px;
+  }
+  /* bottom section */
+
+  .bottom-container {
+    width: 100%;
+    padding: 50px 0px;
+    margin: 20px 20px;
+  }
+  .hieghlights {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-area {
+    text-align: center;
+  }
+}
+
+/* Mobile Layout */
+
 @media only screen and (max-width: 575px) {
   /* common css */
   h2 {
@@ -62,80 +139,6 @@
   .bottom-container {
     width: 100%;
     padding: 50px 0px;
-  }
-  .hieghlights {
-    display: flex;
-    flex-direction: column;
-  }
-  .left-area {
-    text-align: center;
-  }
-}
-/* ipad or tablet divice */
-@media only screen and (min-width: 576px) and (max-width: 892px) {
-  /* common css */
-  h2 {
-    font-size: 1.3em;
-  }
-  nav .btn {
-    padding-right: 10%;
-  }
-  nav ul {
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-grow: 1;
-  }
-  .header-container {
-    width: 100%;
-  }
-  .inner-header {
-    padding: 20px 10%;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .america h1 {
-    font-size: 45px;
-  }
-  .header-img {
-    margin-top: 30px;
-  }
-  /* player section */
-  .container {
-    width: 100%;
-    padding: 50px 0;
-  }
-  .players {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 20px;
-  }
-  /* team conatainer */
-  .team-container {
-    width: 100%;
-    padding: 30px 0;
-  }
-  .full-team {
-    display: flex;
-    flex-direction: column;
-    grid-gap: 40px;
-    margin: 0 10px;
-  }
-  .all-player {
-    margin: 20px 0;
-  }
-  /* services section */
-  .services-container {
-    width: 100%;
-    padding: 50px 0px;
-  }
-  .services {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 10px;
-  }
-  /* bottom section */
-
-  .bottom-container {
-    width: 100%;
-    padding: 50px 0px;
-    margin: 20px 20px;
   }
   .hieghlights {
     display: flex;
