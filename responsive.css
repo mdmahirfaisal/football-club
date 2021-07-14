@@ -59,12 +59,11 @@
   }
   /* bottom section */
 
-  .bottom-container {
+  .hieghlight-container {
     width: 100%;
     padding: 30px 0px;
   }
   .hieghlights {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .left-area {
@@ -90,11 +89,17 @@
   nav {
     flex-direction: column;
     justify-content: center;
+    align-content: center;
   }
   nav ul {
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-grow: 1;
+    margin: 10px 10px;
+  }
+  nav ul li {
+    margin: 5px 20px;
+    list-style: none;
   }
   .header-container {
     width: 100%;
@@ -111,7 +116,7 @@
   }
   .container {
     width: 100%;
-    padding: 50px 0;
+    padding: 20px 0;
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
@@ -134,19 +139,19 @@
   /* services section */
   .services-container {
     width: 100%;
-    padding: 50px 0px;
+    padding: 20px 0px;
   }
   .services {
     grid-template-columns: repeat(1, 1fr);
     margin: 0 10px;
   }
-  .bottom-container {
-    width: 80%;
+  .heighlight-container {
+    width: 100%;
     padding: 30px 0px;
   }
   .hieghlights {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin: 0 10px;
   }
   .left-area {
     text-align: center;
