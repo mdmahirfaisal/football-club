@@ -60,16 +60,21 @@
   /* bottom section */
 
   .bottom-container {
-    width: 100%;
-    padding: 50px 0px;
+    width: 90%;
+    padding: 50px 10px;
     margin: 20px 20px;
   }
   .hieghlights {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   .left-area {
     text-align: center;
+  }
+  .right-area {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
   }
 }
 
@@ -102,8 +107,6 @@
   .header-img {
     margin-top: 20px;
   }
-
-  /* player section */
   .container {
     width: 100%;
     padding: 50px 0;
@@ -126,7 +129,6 @@
   .all-player {
     margin: 20px 0;
   }
-
   /* services section */
   .services-container {
     width: 100%;
@@ -141,11 +143,14 @@
     padding: 50px 0px;
   }
   .hieghlights {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   .left-area {
     text-align: center;
+  }
+  .right-area {
+    margin: 10px 15px;
   }
 }
 /* ---------------
